@@ -1,6 +1,8 @@
 """
 Windows Jarvis AI Assistant
 Author: Mohd Saad Khan
+Year: 2026
+
 Description: Voice-controlled desktop assistant with automation,
 AI responses, file search, and system management capabilities.
 """
