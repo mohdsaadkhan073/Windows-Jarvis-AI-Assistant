@@ -108,8 +108,15 @@ Some application paths inside the script may need to be updated according to you
 
 ---
 
+## Note
+
+This project is for educational and demonstration purposes. Please provide proper attribution if using any part of the code.
+
+---
+
 ## Author
 
 Mohd Saad Khan  
 Diploma in Computer Engineering
+
 
