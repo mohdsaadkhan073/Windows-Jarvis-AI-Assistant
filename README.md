@@ -82,4 +82,34 @@ Jarvis provides voice responses to confirm commands and interact with the user.
 ## Installation
 
 1. Clone the repository
+   https://github.com/mohdsaadkhan073/Windows-Jarvis-AI-Assistant.git
+
+2. Install Dependencies
+   py -3.11 pip -m install -r requirements.txt
+
+3. Run the Assistant
+   py -3.11 jarvis.py
+
+
+---
+
+## Important Note
+
+Some application paths inside the script may need to be updated according to your system configuration.
+
+---
+
+## Future Improvements
+
+- Graphical User Interface (GUI)
+- Better command recognition
+- Cross-platform support
+- More AI integrations
+
+---
+
+## Author
+
+Mohd Saad Khan  
+Diploma in Computer Engineering
 
