@@ -1,0 +1,11 @@
+SpeechRecognition
+pyttsx3
+pyautogui
+pytesseract
+keyboard
+openai-whisper
+pyaudio
+
+Command to Install Packages:
+Use python version 3.11.9
+py -3.11 -m pip install package_name
