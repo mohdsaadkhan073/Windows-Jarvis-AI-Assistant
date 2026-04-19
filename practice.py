@@ -327,13 +327,13 @@ def open_apps(command):
 
  elif "lunar" in command or "lunar client" in command or "lunar launcher" in command:
   speak("Opening Lunar Client")
-  os.startfile(r"C:\Users\Mohd Saad\AppData\Local\Programs\Lunar Client\Lunar Client.exe")
+  os.startfile(r"C:\Users\Mohd-Saad\AppData\Local\Programs\Lunar Client\Lunar Client.exe")
 
   return True
 
  elif "modrinth" in command:
   speak("Opening Modrinth")
-  os.startfile(r"C:\Users\Mohd Saad\AppData\Local\Modrinth App\Modrinth App.exe")
+  os.startfile(r"C:\Users\Mohd-Saad\AppData\Local\Modrinth App\Modrinth App.exe")
   return True
 
  elif "curseforge" in command:
@@ -343,7 +343,7 @@ def open_apps(command):
 
  elif "sk launcher" in command or "sklauncher" in command:
   speak("Opening SKLauncher")
-  os.startfile(r"C:\Users\Mohd Saad\AppData\Roaming\sklauncher\jre\bin\javaw.exe")
+  os.startfile(r"C:\Users\Mohd-Saad\AppData\Roaming\sklauncher\jre\bin\javaw.exe")
   return True
 
  elif "minecraft launcher" in command or "minecraft" in command:
@@ -358,21 +358,21 @@ def open_apps(command):
  
  elif "canva" in command:
   speak("Opening Canva Application")
-  os.startfile(r"C:\Users\Mohd Saad\AppData\Local\Programs\Canva\Canva.exe")
+  os.startfile(r"C:\Users\Mohd-Saad\AppData\Local\Programs\Canva\Canva.exe")
   return True
  
  elif "lets play" in command or "game on" in command or "gaming on" in command or "activate gaming mode" in command or "activate gaming mod" in command:
   speak("Ok Legend! Opening Discord and Feather Client! And closing all other Applications!")
   close_apps("close everything")
   os.startfile(r"C:\Program Files\Feather Launcher\Feather Launcher.exe")
-  os.startfile(r"C:\Users\Mohd Saad\AppData\Local\Discord\app-1.0.9226\Discord.exe")
+  os.startfile(r"C:\Users\Mohd-Saad\AppData\Local\Discord\app-1.0.9226\Discord.exe")
   return True
 
  elif "activate python mode" in command or "activate python mod" in command or "activate python" in command or "python mode" in command or "python mod" in command:
   speak("Done Sir! Python mode Activated. Closing other applications")
   close_apps("close everything")
   os.system("start pycharm64")
-  os.startfile(r"C:\Users\Mohd Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\PWP")
+  os.startfile(r"C:\Users\Mohd-Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\PWP")
   os.system("start chrome https://chatgpt.com/")
   os.system("start chrome https://web.whatsapp.com/")
   return True
@@ -381,18 +381,18 @@ def open_apps(command):
   speak("Done Sir! Java mode Activated. Closing other applications")
   close_apps("close everything")
   os.system("start notepad")
-  os.startfile(r"C:\Users\Mohd Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\JPR")
+  os.startfile(r"C:\Users\Mohd-Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\JPR")
   os.system("start chrome https://chatgpt.com/")
   os.system("start chrome https://web.whatsapp.com/")
-  wt_path=r"C:\Users\Mohd Saad\AppData\Local\Microsoft\WindowsApps\wt.exe"
-  java_path=r"C:\Users\Mohd Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\JPR\My Practice"
+  wt_path=r"C:\Users\Mohd-Saad\AppData\Local\Microsoft\WindowsApps\wt.exe"
+  java_path=r"C:\Users\Mohd-Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\JPR\My Practice"
   subprocess.Popen([wt_path,"-w","0","nt","-d",java_path,"cmd"])
   return True
  
  elif "activate ui mode" in command or "activate ui mod" in command or "activate gui mode" in command or "activate gui mod" in command or "activate ui" in command or "ui mode" in command or "ui mod" in command or "gui mode" in command or "gui mod" in command:
   speak("Done Legend! UI UX mode Activated. Closing other applications")
   close_apps("close everything")
-  os.startfile(r"C:\Users\Mohd Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\UID")
+  os.startfile(r"C:\Users\Mohd-Saad\OneDrive\Desktop\4. Vidyalankar Polytechnic CO4KA\UID")
   open_websites("figma")
   os.system("start chrome https://chatgpt.com/")
   os.system("start chrome https://web.whatsapp.com/")
